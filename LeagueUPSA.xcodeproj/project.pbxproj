@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D41FEC02277CAA7008A819B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FEBF2277CAA7008A819B /* AppDelegate.swift */; };
+		7D41FEC22277CAA7008A819B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FEC12277CAA7008A819B /* ViewController.swift */; };
+		7D41FEC52277CAA7008A819B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FEC32277CAA7008A819B /* Main.storyboard */; };
+		7D41FECA2277CAA9008A819B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41FEC82277CAA9008A819B /* LaunchScreen.storyboard */; };
+		7D41FED52277CAA9008A819B /* LeagueUPSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FED42277CAA9008A819B /* LeagueUPSATests.swift */; };
+		7D41FEE02277CAAA008A819B /* LeagueUPSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41FEDF2277CAAA008A819B /* LeagueUPSAUITests.swift */; };
+		7D67EC9A227A267700D68352 /* riot_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D67EC99227A267700D68352 /* riot_icon.png */; };
+		7D67EC9C227A274800D68352 /* riot-p.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D67EC9B227A274800D68352 /* riot-p.png */; };
+		7D67EC9E227A28B900D68352 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67EC9D227A28B900D68352 /* Asset.xcassets */; };
+		7D70A09B227AF2DA00DE1AC5 /* icons8-play-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70A09A227AF2DA00DE1AC5 /* icons8-play-20.png */; };
+		7D70A09D227AF2DF00DE1AC5 /* icons8-estrella-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70A09C227AF2DF00DE1AC5 /* icons8-estrella-20.png */; };
+		7D70A09F227AF2F100DE1AC5 /* icons8-casa-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D70A09E227AF2F100DE1AC5 /* icons8-casa-20.png */; };
+		7D8A92F92277E827007AB702 /* LeagueAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8A92F82277E827007AB702 /* LeagueAPI.framework */; };
+		7D8A92FA2277E845007AB702 /* LeagueAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8A92F82277E827007AB702 /* LeagueAPI.framework */; };
+		7D8A92FB2277E845007AB702 /* LeagueAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8A92F82277E827007AB702 /* LeagueAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D8A93072277EE7B007AB702 /* APIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A93062277EE7B007AB702 /* APIFunctions.swift */; };
+		7D8A93092277EE8C007AB702 /* APIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A93082277EE8C007AB702 /* APIResources.swift */; };
+		7D8A930B2277F7BF007AB702 /* ViewControllerGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A930A2277F7BF007AB702 /* ViewControllerGeneralView.swift */; };
+		7D8A930D2277FBAE007AB702 /* ViewFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A930C2277FBAE007AB702 /* ViewFunctions.swift */; };
+		7D8A93112278092C007AB702 /* ModeloPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A93102278092C007AB702 /* ModeloPrincipal.swift */; };
+		7D8A931322780E42007AB702 /* TablaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931222780E42007AB702 /* TablaPrincipal.swift */; };
+		7D8A931522782565007AB702 /* ViewControllerChampions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931422782565007AB702 /* ViewControllerChampions.swift */; };
+		7D8A9317227828D7007AB702 /* TablaCampeones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A9316227828D7007AB702 /* TablaCampeones.swift */; };
+		7D8A931922788F37007AB702 /* ViewControllerCampeonDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931822788F37007AB702 /* ViewControllerCampeonDetalle.swift */; };
+		7D8A931B227899DC007AB702 /* ViewControllorePartidaDetallada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931A227899DC007AB702 /* ViewControllorePartidaDetallada.swift */; };
+		7D8A931D2278FDDD007AB702 /* TablaJugadorDetallado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931C2278FDDD007AB702 /* TablaJugadorDetallado.swift */; };
+		7D8A931F22792029007AB702 /* ViewControllerDirecto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A931E22792029007AB702 /* ViewControllerDirecto.swift */; };
+		7D8A9338227928F3007AB702 /* Campeon1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9321227928F2007AB702 /* Campeon1.jpeg */; };
+		7D8A9339227928F3007AB702 /* Campeon3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9322227928F2007AB702 /* Campeon3.jpeg */; };
+		7D8A9348227928F3007AB702 /* Campeon4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9334227928F3007AB702 /* Campeon4.jpeg */; };
+		7D8A9349227928F3007AB702 /* Campeon2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9335227928F3007AB702 /* Campeon2.jpeg */; };
+		7D8A934A227928F3007AB702 /* fondoInicial.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9336227928F3007AB702 /* fondoInicial.jpeg */; };
+		7D8A934B227928F3007AB702 /* lol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D8A9337227928F3007AB702 /* lol.jpg */; };
+		7D8A934E22792ABE007AB702 /* FondoAnimado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A934D22792ABE007AB702 /* FondoAnimado.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D41FED12277CAA9008A819B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D41FEB42277CAA7008A819B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D41FEBB2277CAA7008A819B;
+			remoteInfo = LeagueUPSA;
+		};
+		7D41FEDC2277CAA9008A819B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D41FEB42277CAA7008A819B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D41FEBB2277CAA7008A819B;
+			remoteInfo = LeagueUPSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D8A92FC2277E845007AB702 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D8A92FB2277E845007AB702 /* LeagueAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D41FEBC2277CAA7008A819B /* LeagueUPSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueUPSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41FEBF2277CAA7008A819B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D41FEC12277CAA7008A819B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D41FEC42277CAA7008A819B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D41FEC92277CAA9008A819B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D41FECB2277CAA9008A819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D41FED02277CAA9008A819B /* LeagueUPSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueUPSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41FED42277CAA9008A819B /* LeagueUPSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueUPSATests.swift; sourceTree = "<group>"; };
+		7D41FED62277CAA9008A819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D41FEDB2277CAA9008A819B /* LeagueUPSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueUPSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D41FEDF2277CAAA008A819B /* LeagueUPSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueUPSAUITests.swift; sourceTree = "<group>"; };
+		7D41FEE12277CAAA008A819B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D67EC99227A267700D68352 /* riot_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riot_icon.png; sourceTree = "<group>"; };
+		7D67EC9B227A274800D68352 /* riot-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "riot-p.png"; sourceTree = "<group>"; };
+		7D67EC9D227A28B900D68352 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		7D70A09A227AF2DA00DE1AC5 /* icons8-play-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-play-20.png"; sourceTree = "<group>"; };
+		7D70A09C227AF2DF00DE1AC5 /* icons8-estrella-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-estrella-20.png"; sourceTree = "<group>"; };
+		7D70A09E227AF2F100DE1AC5 /* icons8-casa-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-casa-20.png"; sourceTree = "<group>"; };
+		7D8A92F82277E827007AB702 /* LeagueAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LeagueAPI.framework; sourceTree = "<group>"; };
+		7D8A93062277EE7B007AB702 /* APIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunctions.swift; sourceTree = "<group>"; };
+		7D8A93082277EE8C007AB702 /* APIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResources.swift; sourceTree = "<group>"; };
+		7D8A930A2277F7BF007AB702 /* ViewControllerGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGeneralView.swift; sourceTree = "<group>"; };
+		7D8A930C2277FBAE007AB702 /* ViewFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFunctions.swift; sourceTree = "<group>"; };
+		7D8A93102278092C007AB702 /* ModeloPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloPrincipal.swift; sourceTree = "<group>"; };
+		7D8A931222780E42007AB702 /* TablaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaPrincipal.swift; sourceTree = "<group>"; };
+		7D8A931422782565007AB702 /* ViewControllerChampions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerChampions.swift; sourceTree = "<group>"; };
+		7D8A9316227828D7007AB702 /* TablaCampeones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaCampeones.swift; sourceTree = "<group>"; };
+		7D8A931822788F37007AB702 /* ViewControllerCampeonDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCampeonDetalle.swift; sourceTree = "<group>"; };
+		7D8A931A227899DC007AB702 /* ViewControllorePartidaDetallada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllorePartidaDetallada.swift; sourceTree = "<group>"; };
+		7D8A931C2278FDDD007AB702 /* TablaJugadorDetallado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaJugadorDetallado.swift; sourceTree = "<group>"; };
+		7D8A931E22792029007AB702 /* ViewControllerDirecto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDirecto.swift; sourceTree = "<group>"; };
+		7D8A9321227928F2007AB702 /* Campeon1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Campeon1.jpeg; sourceTree = "<group>"; };
+		7D8A9322227928F2007AB702 /* Campeon3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Campeon3.jpeg; sourceTree = "<group>"; };
+		7D8A9334227928F3007AB702 /* Campeon4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Campeon4.jpeg; sourceTree = "<group>"; };
+		7D8A9335227928F3007AB702 /* Campeon2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Campeon2.jpeg; sourceTree = "<group>"; };
+		7D8A9336227928F3007AB702 /* fondoInicial.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoInicial.jpeg; sourceTree = "<group>"; };
+		7D8A9337227928F3007AB702 /* lol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lol.jpg; sourceTree = "<group>"; };
+		7D8A934D22792ABE007AB702 /* FondoAnimado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FondoAnimado.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D41FEB92277CAA7008A819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8A92FA2277E845007AB702 /* LeagueAPI.framework in Frameworks */,
+				7D8A92F92277E827007AB702 /* LeagueAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FECD2277CAA9008A819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FED82277CAA9008A819B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D41FEB32277CAA7008A819B = {
+			isa = PBXGroup;
+			children = (
+				7D67EC9D227A28B900D68352 /* Asset.xcassets */,
+				7D8A9320227928CA007AB702 /* Assets */,
+				7D8A92F72277E7B6007AB702 /* New Group */,
+				7D41FEBE2277CAA7008A819B /* LeagueUPSA */,
+				7D41FED32277CAA9008A819B /* LeagueUPSATests */,
+				7D41FEDE2277CAA9008A819B /* LeagueUPSAUITests */,
+				7D41FEBD2277CAA7008A819B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D41FEBD2277CAA7008A819B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D41FEBC2277CAA7008A819B /* LeagueUPSA.app */,
+				7D41FED02277CAA9008A819B /* LeagueUPSATests.xctest */,
+				7D41FEDB2277CAA9008A819B /* LeagueUPSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D41FEBE2277CAA7008A819B /* LeagueUPSA */ = {
+			isa = PBXGroup;
+			children = (
+				7D41FEBF2277CAA7008A819B /* AppDelegate.swift */,
+				7D41FEC12277CAA7008A819B /* ViewController.swift */,
+				7D8A930A2277F7BF007AB702 /* ViewControllerGeneralView.swift */,
+				7D8A931422782565007AB702 /* ViewControllerChampions.swift */,
+				7D8A931822788F37007AB702 /* ViewControllerCampeonDetalle.swift */,
+				7D8A931A227899DC007AB702 /* ViewControllorePartidaDetallada.swift */,
+				7D8A931E22792029007AB702 /* ViewControllerDirecto.swift */,
+				7D8A930C2277FBAE007AB702 /* ViewFunctions.swift */,
+				7D8A93102278092C007AB702 /* ModeloPrincipal.swift */,
+				7D8A93062277EE7B007AB702 /* APIFunctions.swift */,
+				7D8A93082277EE8C007AB702 /* APIResources.swift */,
+				7D41FEC32277CAA7008A819B /* Main.storyboard */,
+				7D41FEC82277CAA9008A819B /* LaunchScreen.storyboard */,
+				7D41FECB2277CAA9008A819B /* Info.plist */,
+				7D8A931222780E42007AB702 /* TablaPrincipal.swift */,
+				7D8A9316227828D7007AB702 /* TablaCampeones.swift */,
+				7D8A931C2278FDDD007AB702 /* TablaJugadorDetallado.swift */,
+				7D8A934D22792ABE007AB702 /* FondoAnimado.swift */,
+			);
+			path = LeagueUPSA;
+			sourceTree = "<group>";
+		};
+		7D41FED32277CAA9008A819B /* LeagueUPSATests */ = {
+			isa = PBXGroup;
+			children = (
+				7D41FED42277CAA9008A819B /* LeagueUPSATests.swift */,
+				7D41FED62277CAA9008A819B /* Info.plist */,
+			);
+			path = LeagueUPSATests;
+			sourceTree = "<group>";
+		};
+		7D41FEDE2277CAA9008A819B /* LeagueUPSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D41FEDF2277CAAA008A819B /* LeagueUPSAUITests.swift */,
+				7D41FEE12277CAAA008A819B /* Info.plist */,
+			);
+			path = LeagueUPSAUITests;
+			sourceTree = "<group>";
+		};
+		7D8A92F72277E7B6007AB702 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7D8A92F82277E827007AB702 /* LeagueAPI.framework */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7D8A9320227928CA007AB702 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7D70A09A227AF2DA00DE1AC5 /* icons8-play-20.png */,
+				7D70A09E227AF2F100DE1AC5 /* icons8-casa-20.png */,
+				7D70A09C227AF2DF00DE1AC5 /* icons8-estrella-20.png */,
+				7D8A9321227928F2007AB702 /* Campeon1.jpeg */,
+				7D8A9335227928F3007AB702 /* Campeon2.jpeg */,
+				7D8A9322227928F2007AB702 /* Campeon3.jpeg */,
+				7D8A9334227928F3007AB702 /* Campeon4.jpeg */,
+				7D8A9336227928F3007AB702 /* fondoInicial.jpeg */,
+				7D67EC99227A267700D68352 /* riot_icon.png */,
+				7D67EC9B227A274800D68352 /* riot-p.png */,
+				7D8A9337227928F3007AB702 /* lol.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D41FEBB2277CAA7008A819B /* LeagueUPSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D41FEE42277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSA" */;
+			buildPhases = (
+				7D41FEB82277CAA7008A819B /* Sources */,
+				7D41FEB92277CAA7008A819B /* Frameworks */,
+				7D41FEBA2277CAA7008A819B /* Resources */,
+				7D8A92FC2277E845007AB702 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeagueUPSA;
+			productName = LeagueUPSA;
+			productReference = 7D41FEBC2277CAA7008A819B /* LeagueUPSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D41FECF2277CAA9008A819B /* LeagueUPSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D41FEE72277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSATests" */;
+			buildPhases = (
+				7D41FECC2277CAA9008A819B /* Sources */,
+				7D41FECD2277CAA9008A819B /* Frameworks */,
+				7D41FECE2277CAA9008A819B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D41FED22277CAA9008A819B /* PBXTargetDependency */,
+			);
+			name = LeagueUPSATests;
+			productName = LeagueUPSATests;
+			productReference = 7D41FED02277CAA9008A819B /* LeagueUPSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D41FEDA2277CAA9008A819B /* LeagueUPSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D41FEEA2277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSAUITests" */;
+			buildPhases = (
+				7D41FED72277CAA9008A819B /* Sources */,
+				7D41FED82277CAA9008A819B /* Frameworks */,
+				7D41FED92277CAA9008A819B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D41FEDD2277CAA9008A819B /* PBXTargetDependency */,
+			);
+			name = LeagueUPSAUITests;
+			productName = LeagueUPSAUITests;
+			productReference = 7D41FEDB2277CAA9008A819B /* LeagueUPSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D41FEB42277CAA7008A819B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MSDIEZ;
+				TargetAttributes = {
+					7D41FEBB2277CAA7008A819B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7D41FECF2277CAA9008A819B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7D41FEBB2277CAA7008A819B;
+					};
+					7D41FEDA2277CAA9008A819B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7D41FEBB2277CAA7008A819B;
+					};
+				};
+			};
+			buildConfigurationList = 7D41FEB72277CAA7008A819B /* Build configuration list for PBXProject "LeagueUPSA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D41FEB32277CAA7008A819B;
+			productRefGroup = 7D41FEBD2277CAA7008A819B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D41FEBB2277CAA7008A819B /* LeagueUPSA */,
+				7D41FECF2277CAA9008A819B /* LeagueUPSATests */,
+				7D41FEDA2277CAA9008A819B /* LeagueUPSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D41FEBA2277CAA7008A819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D67EC9C227A274800D68352 /* riot-p.png in Resources */,
+				7D67EC9E227A28B900D68352 /* Asset.xcassets in Resources */,
+				7D8A9339227928F3007AB702 /* Campeon3.jpeg in Resources */,
+				7D8A934B227928F3007AB702 /* lol.jpg in Resources */,
+				7D67EC9A227A267700D68352 /* riot_icon.png in Resources */,
+				7D70A09F227AF2F100DE1AC5 /* icons8-casa-20.png in Resources */,
+				7D41FECA2277CAA9008A819B /* LaunchScreen.storyboard in Resources */,
+				7D8A9338227928F3007AB702 /* Campeon1.jpeg in Resources */,
+				7D70A09B227AF2DA00DE1AC5 /* icons8-play-20.png in Resources */,
+				7D70A09D227AF2DF00DE1AC5 /* icons8-estrella-20.png in Resources */,
+				7D8A934A227928F3007AB702 /* fondoInicial.jpeg in Resources */,
+				7D8A9348227928F3007AB702 /* Campeon4.jpeg in Resources */,
+				7D8A9349227928F3007AB702 /* Campeon2.jpeg in Resources */,
+				7D41FEC52277CAA7008A819B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FECE2277CAA9008A819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FED92277CAA9008A819B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D41FEB82277CAA7008A819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8A9317227828D7007AB702 /* TablaCampeones.swift in Sources */,
+				7D8A931F22792029007AB702 /* ViewControllerDirecto.swift in Sources */,
+				7D8A930D2277FBAE007AB702 /* ViewFunctions.swift in Sources */,
+				7D8A931922788F37007AB702 /* ViewControllerCampeonDetalle.swift in Sources */,
+				7D8A931D2278FDDD007AB702 /* TablaJugadorDetallado.swift in Sources */,
+				7D8A931B227899DC007AB702 /* ViewControllorePartidaDetallada.swift in Sources */,
+				7D8A930B2277F7BF007AB702 /* ViewControllerGeneralView.swift in Sources */,
+				7D41FEC22277CAA7008A819B /* ViewController.swift in Sources */,
+				7D8A93072277EE7B007AB702 /* APIFunctions.swift in Sources */,
+				7D8A93092277EE8C007AB702 /* APIResources.swift in Sources */,
+				7D8A931322780E42007AB702 /* TablaPrincipal.swift in Sources */,
+				7D8A931522782565007AB702 /* ViewControllerChampions.swift in Sources */,
+				7D8A93112278092C007AB702 /* ModeloPrincipal.swift in Sources */,
+				7D41FEC02277CAA7008A819B /* AppDelegate.swift in Sources */,
+				7D8A934E22792ABE007AB702 /* FondoAnimado.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FECC2277CAA9008A819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D41FED52277CAA9008A819B /* LeagueUPSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D41FED72277CAA9008A819B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D41FEE02277CAAA008A819B /* LeagueUPSAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D41FED22277CAA9008A819B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D41FEBB2277CAA7008A819B /* LeagueUPSA */;
+			targetProxy = 7D41FED12277CAA9008A819B /* PBXContainerItemProxy */;
+		};
+		7D41FEDD2277CAA9008A819B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D41FEBB2277CAA7008A819B /* LeagueUPSA */;
+			targetProxy = 7D41FEDC2277CAA9008A819B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D41FEC32277CAA7008A819B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D41FEC42277CAA7008A819B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D41FEC82277CAA9008A819B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D41FEC92277CAA9008A819B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D41FEE22277CAAA008A819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D41FEE32277CAAA008A819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D41FEE52277CAAA008A819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/New\\ Group",
+					"$(PROJECT_DIR)/New\\ Group",
+				);
+				INFOPLIST_FILE = LeagueUPSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D41FEE62277CAAA008A819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/New\\ Group",
+					"$(PROJECT_DIR)/New\\ Group",
+				);
+				INFOPLIST_FILE = LeagueUPSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D41FEE82277CAAA008A819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeagueUPSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueUPSA.app/LeagueUPSA";
+			};
+			name = Debug;
+		};
+		7D41FEE92277CAAA008A819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeagueUPSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueUPSA.app/LeagueUPSA";
+			};
+			name = Release;
+		};
+		7D41FEEB2277CAAA008A819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeagueUPSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueUPSA;
+			};
+			name = Debug;
+		};
+		7D41FEEC2277CAAA008A819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeagueUPSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UPSA.LeagueUPSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeagueUPSA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D41FEB72277CAA7008A819B /* Build configuration list for PBXProject "LeagueUPSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D41FEE22277CAAA008A819B /* Debug */,
+				7D41FEE32277CAAA008A819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D41FEE42277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D41FEE52277CAAA008A819B /* Debug */,
+				7D41FEE62277CAAA008A819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D41FEE72277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D41FEE82277CAAA008A819B /* Debug */,
+				7D41FEE92277CAAA008A819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D41FEEA2277CAAA008A819B /* Build configuration list for PBXNativeTarget "LeagueUPSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D41FEEB2277CAAA008A819B /* Debug */,
+				7D41FEEC2277CAAA008A819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D41FEB42277CAA7008A819B /* Project object */;
+}
